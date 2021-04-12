@@ -45,12 +45,16 @@ body {
 
       &__image {
         position: relative;
-        max-width: 120px;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        border: 5px solid white;
         top: -75px;
         left: 110px;
       }
 
       &__name {
+        color: white;
         text-transform: uppercase;
         text-align: center;
       }
@@ -60,6 +64,7 @@ body {
       }
 
       &__a {
+        color: rgba(255,255,255, 0.7);
         text-decoration-line: none;
       }
     }
